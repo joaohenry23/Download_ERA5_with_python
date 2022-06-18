@@ -26,18 +26,20 @@ Creates a CDS account [here](https://cds.climate.copernicus.eu/user/register).
 - You need to login to continue, login [here](https://cds.climate.copernicus.eu/user/login?destination=%2F%23!%2Fhome).
 - After login, click [here](https://cds.climate.copernicus.eu/user).
 - Scroll down in the pageweb until the API key section and copy the **UID** and **API Key** codes.
-- Creates .cdsapirc file <br>
+- Creates .cdsapirc file
+
   **For Linux**:
       creates the file $HOME/.cdsapirc
 
   **For Windows**:
-      creates the file at C:\Users\Username folder\.cdsapirc
-  More information for windows [here](https://confluence.ecmwf.int/display/CKB/How+to+install+and+use+CDS+API+on+Windows) and [here](https://confluence.ecmwf.int/pages/viewpage.action?pageId=139068264).
+      creates the file at %USERPROFILE%\\.cdsapirc
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More information for windows [here](https://confluence.ecmwf.int/display/CKB/How+to+install+and+use+CDS+API+on+Windows) and [here](https://confluence.ecmwf.int/pages/viewpage.action?pageId=139068264).
 <br>
 - Copy the next code within .cdsapirc
 
-    url: https://cds.climate.copernicus.eu/api/v2 <br>
-    key: {<span style="color:red">uid</span>}:{<span style="color:red">api-key</span>}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;url: https://cds.climate.copernicus.eu/api/v2 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;key: {**uid**}:{**api-key**}
 
 
 For more detail see [here](https://cds.climate.copernicus.eu/api-how-to).
