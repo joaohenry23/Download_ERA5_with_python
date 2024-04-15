@@ -6,7 +6,7 @@ Since the ECMWF currently advice user to migrate from ERA-interim to ERA5 ([due 
 
 The CDS API can be installed with Conda or Pip, and it is recommended to install it within a python environment.
 
-Installation using onda:
+Installation using conda:
 ```
 conda config --add channels conda-forge
 conda install cdsapi
